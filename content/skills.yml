@@ -1,0 +1,58 @@
+skills:
+  languages:
+    -
+      value: python
+      text: Python
+    -
+      value: javascript
+      text: Javascript
+    -
+      value: typescript
+      text: Typescript
+    -
+      value: html
+      text: HTML
+    -
+      value: bash
+      text: Bash
+    -
+      value: c
+      text: C
+  frameworks: 
+    -
+      value: tensorflow
+      text: Tensorflow
+    -
+      value: django
+      text: Django
+    -
+      value: vue
+      text: Vue.js
+    -
+      value: angular
+      text: Angular
+    -
+      value: nuxt
+      text: Nuxt
+    -
+      value: vuetify
+      text: Vuetify
+    - 
+      value: bulma
+      text: Bulma
+  tools:
+    -
+      value: git
+      text: Git
+    -
+      value: github
+      text: Github
+    -
+      value: docker
+      text: Docker
+    -
+      value: jenkins
+      text: Jenkins
+    -
+      value: jira
+      text: Jira

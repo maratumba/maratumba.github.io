@@ -15,6 +15,13 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
+    script: [
+      {
+        src:
+          'https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver',
+        body: true
+      }
+    ],
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
@@ -24,11 +31,11 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { href:'https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;500;700&display=swap', rel: 'stylesheet'},
-      { href:'https://use.fontawesome.com/releases/v5.4.1/css/all.css', rel: 'stylesheet'},
+      { href:'https://use.fontawesome.com/releases/v5.13.1/css/all.css', rel: 'stylesheet'},
     ]
   },
   router: {
-    linkActiveClass: 'is-active'
+    linkActiveClass: 'is-active',
   },
   /*
   ** Global CSS
@@ -39,9 +46,11 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   styleResources: {
+    css: ['aos/dist/aos.css'],
     scss: ['~/assets/scss/main.scss']
   },
   plugins: [
+    '~/plugins/aos.js',
   ],
   /*
   ** Auto import components

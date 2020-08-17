@@ -1,7 +1,8 @@
 ---
 slug: strong-opinions
 title: Strong Opinions
-tags: opinion
+tags: opinion, ux
+image: opinion.jpg
 description: The stronger your opinions, better you'll be perceived
 ---
 

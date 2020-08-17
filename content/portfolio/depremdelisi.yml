@@ -1,0 +1,13 @@
+href: http://depremdelisi.com
+title: Deprem Delisi
+tags:
+  - science
+  - seismology
+  - visualization
+description: A website to visualize earthquake waveforms. Consumes public APIs from FDSN and WebDC web services.
+technologies:
+  - vue
+  - nuxt
+  - vuetify
+  - html
+  - javascript

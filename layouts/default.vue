@@ -25,11 +25,9 @@
         </div>
       </div>
     </nav>
-      <div class="columns">
-        <div class="column is-three-fifths is-offset-one-fifth has-background-light my-4">
-          <Nuxt/>
-        </div>
-      </div>
+    <div class="main-content">
+      <Nuxt/>
+    </div>
   </body>
 </template>
 
@@ -44,19 +42,25 @@ export default Vue.extend({
         value: 'about',
         text: 'About',
         icon: 'fas fa-info',
-        href: '#',
+        href: '/about',
       },
       {
         value: 'portfolio',
         text: 'Portfolio',  
         icon: 'fas fa-grip-horizontal',
-        href: '#',
+        href: '/portfolio',
       },
       {
         value: 'articles',
         text: 'Articles',
         icon: 'fas fa-th-list',
         href: '/articles',
+      },
+      {
+        value: 'tools',
+        text: 'Tools  ',
+        icon: 'fas fa-tools',
+        href: '/tools',
       },
     ],
   })
@@ -69,6 +73,9 @@ a.navbar-item.nuxt-link-exact-active {
 }
 body nav {
   background-color: #333333;
+}
+.main-content {
+  font-family: "Poppins", sans-serif;
 }
 .has-same-height .card {
   height: 320px;

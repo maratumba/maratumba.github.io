@@ -1,0 +1,12 @@
+href: 
+title: Data Annotation Tool
+tags:
+  - machine learning
+  - image processing
+  - annotation
+description: An app to collect, annotate and classify images.
+technologies:
+  - angular
+  - django
+  - html
+  - javascript
