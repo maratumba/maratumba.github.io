@@ -28,7 +28,10 @@ export default Vue.extend({
   }),
   async asyncData(ctx) {
     // fetch our article here
-    const articles = await ctx.app.$content("articles").fetch();
+    const articles = await ctx.app
+      .$content("articles")
+      .where({public: true})
+      .fetch();
     return { articles };
   },
 });

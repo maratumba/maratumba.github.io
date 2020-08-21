@@ -1,4 +1,5 @@
 ---
+public: false
 slug: coding-with-love
 title: Coding With Love
 tags: ux, opinion

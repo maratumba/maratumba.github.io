@@ -10,7 +10,7 @@
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-4 "><span class="has-text-white has-text-weight-bold has-background-black-ter">{{ article.title}}</span></p>
+              <p class="title is-4 black-bar"><span class="has-text-white has-text-weight-bold extend-left has-background-black-ter">{{ article.title}}</span></p>
               <p class="subtitle is-5">{{ article.description }}</p>
             </div>
           </div>
@@ -38,9 +38,16 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
+.extend-left {
+  // padding-left: 20px;
+  // margin-left: -20px;
+}
+.title {
+    line-height: 1.2em;
+}
 figure img {
   height: 100% !important;
-  outline: inset 4px #333;
+  outline: inset 5px #333;
 }
 .card:hover{
     box-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($scheme-invert, 0.02)

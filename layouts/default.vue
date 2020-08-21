@@ -1,6 +1,6 @@
 <template>
 
-  <body class="has-navbar-fixed-top">
+  <div class="">
   <!-- Navigation bar -->
     <nav class="navbar is-fixed-top">
       <div class="navbar-brand">
@@ -25,16 +25,21 @@
         </div>
       </div>
     </nav>
-    <div class="main-content">
+    <div class="main-content is-fullheight">
       <Nuxt/>
     </div>
-  </body>
+  </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 
 export default Vue.extend({
+  head: {
+    bodyAttrs: {
+      class: 'has-navbar-fixed-top'
+    }
+  },
   data: () => ({
     showMenu: false,
     menuItems: [
@@ -42,7 +47,7 @@ export default Vue.extend({
         value: 'about',
         text: 'About',
         icon: 'fas fa-info',
-        href: '/about',
+        href: '/',
       },
       {
         value: 'portfolio',
@@ -68,6 +73,20 @@ export default Vue.extend({
 </script>
 
 <style lang="scss"> 
+body {
+  min-height: 100vh;
+}
+.hero.footer{
+  background-color: #333;
+  color: #DDD;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  .hero-body{
+    padding: 1em;
+  }
+}
 a.navbar-item.nuxt-link-exact-active {
   color: $secondary !important;
 }

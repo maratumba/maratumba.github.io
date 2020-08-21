@@ -1,6 +1,6 @@
 <template>
   <a v-if="icon" :href="icon.href" target="_blank" rel="noreferrer nofollow">
-  <img :class="{'is-128x128': is128, fullWidth, 'is-square': isSquare, 'icon': isIcon}" class="image" :src="icon.url" />
+    <img :class="{'is-128x128': is128, 'is-64x64': is64, 'is-24x24': is24, fullWidth, 'is-square': isSquare, 'icon': isIcon}" class="image" :src="icon.url" />
   </a>
 </template>
 
@@ -33,6 +33,11 @@ const ICONS = {
     url: require('~/assets/media/tech-icons/nuxt.svg'),
     type: "image/png",
     href: "https://nuxtjs.org"
+  },
+  nuxtContent: {
+    url: require('~/assets/media/tech-icons/nuxtContent.svg'),
+    type: "image/png",
+    href: "https://content.nuxtjs.org"
   },
   docker: {
     url: require('~/assets/media/tech-icons/docker.svg'),
@@ -116,6 +121,8 @@ export default Vue.extend({
     tech: String,
     fullWidth: Boolean,
     is128: Boolean,
+    is64: Boolean,
+    is24: Boolean,
     isSquare: Boolean,
     isIcon: Boolean,
   },

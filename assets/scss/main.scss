@@ -23,3 +23,8 @@ $card-shadow: none;
 
 /* Import the rest of Bulma */
 @import '~bulma';
+
+
+.no-overflow {
+  overflow: hidden;
+}

@@ -1,6 +1,7 @@
 export interface Article {
-    title: String,
-    tags?: String,
-    description?: String,
-    image?: String,
+    title: string,
+    tags?: string,
+    description?: string,
+    image?: string,
+    createdAt?: string,
 }

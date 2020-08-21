@@ -1,6 +1,7 @@
 ---
-slug: basic-seismology-tools-need-modernization
-title: Seismology Tools Are Ancient, They Need Modernization
+public: true
+slug: technical-debt-in-seismology
+title: The Technical Debt in Seismology
 tags: science, seismology, opinion
 image: old-computer.jpg
 description: Most basic tools in seismology are written in the 90s, modernization of these would lower the barrier for multi-disciplenary scientists and curious people
@@ -12,7 +13,7 @@ Seismology is an old science, even the ancient Chinese knew that earth was shaki
 
 HypoInverse: Written in Fortran,
 HypoDD: Fortran
-NonLinLoc: ?
+NonLinLoc: C
 
 Possible approaches: 
 - compile or transpile old code in a cross-platform language like Java, WASM.
