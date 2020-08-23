@@ -11,6 +11,7 @@ technologies:
   - bulma
   - html
   - javascript
+  - typescript
 ---
 What you're looking at right now!
 <br></br>

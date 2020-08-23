@@ -77,7 +77,7 @@
         </div>
       </div>-->
       <div class="columns">
-        <div class="column is-6 is-offset-3">
+        <div class="column has-background-white-0-7 is-6 is-offset-3">
           <section class="section-light" >
             <h1 class="section-title" data-aos="fade-right">About Me</h1>
             <p class="is-larger is-size-4" data-aos="fade-left">
@@ -127,6 +127,7 @@
             </div>
           </section>
           <section class="section-light" >
+            <h1 class="section-title" >Contact Me</h1>
             <contact-form />
           </section>
         </div>

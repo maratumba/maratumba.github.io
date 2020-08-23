@@ -1,7 +1,7 @@
 <template>
   <div class="container">
   <div class="columns">
-    <div class="column is-three-fifths is-offset-one-fifth my-4">
+    <div class="column is-three-fifths is-offset-one-fifth ">
       <section class="section">
     <div class="container">
       <div class="container">

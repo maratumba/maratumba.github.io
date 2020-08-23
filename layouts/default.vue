@@ -75,6 +75,7 @@ export default Vue.extend({
 <style lang="scss"> 
 body {
   min-height: 100vh;
+  background-image: url('~assets/media/background/dot.png');
 }
 .hero.footer{
   background-color: #333;

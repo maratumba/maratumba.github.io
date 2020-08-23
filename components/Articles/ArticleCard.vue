@@ -10,7 +10,7 @@
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-4 black-bar"><span class="has-text-white has-text-weight-bold extend-left has-background-black-ter">{{ article.title}}</span></p>
+              <h2 class="title is-4"><span class="extend-left">{{ article.title}}</span></h2>
               <p class="subtitle is-5">{{ article.description }}</p>
             </div>
           </div>

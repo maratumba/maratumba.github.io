@@ -16,7 +16,7 @@
     </div>
     <div class="section">
       <div class="columns">
-        <div class="column is-three-fifths is-offset-one-fifth my-4">
+        <div class="column has-background-white px-4 is-three-fifths is-offset-one-fifth my-4">
           <!-- <h1 class="title is-1" v-text="article.title"></h1> -->
           <div class="level align-start">
             <div class="media pb-5">
