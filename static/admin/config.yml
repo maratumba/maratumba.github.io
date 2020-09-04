@@ -19,3 +19,20 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+comic:
+  - name: 'article'
+    label: 'Article'
+    folder: 'content/articles'
+    create: true
+    format: 'markdown'
+    slug: '{{filename}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Public', name: 'public', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Description', name: 'description', widget: 'string' }
