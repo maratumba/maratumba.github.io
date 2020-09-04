@@ -141,6 +141,11 @@ import Vue from "vue";
 import SkillCard from "~/components/SkillCard.vue";
 import ContactForm from "~/components/ContactForm.vue";
 export default Vue.extend({
+  head() {
+    return {
+      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+    };
+  },
   data: () => ({
     skills: [],
     skillSections: [
