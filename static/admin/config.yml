@@ -20,12 +20,11 @@ collections:
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
-comic:
   - name: 'article'
     label: 'Article'
     folder: 'content/articles'
     create: true
-    format: 'markdown'
+    format: 'frontmatter'
     slug: '{{filename}}'
     editor:
       preview: true
@@ -36,3 +35,4 @@ comic:
       - { label: 'Tags', name: 'tags', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
