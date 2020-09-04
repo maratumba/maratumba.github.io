@@ -7,5 +7,4 @@ image: opinion.jpg
 image-citation: Photo by Ekaterina Bolovtsova from Pexels
 description: The stronger your opinions, better you'll be perceived
 ---
-
-Some strong opinions about UX design and Agile.e
+Some strong opinions about UX design and Agile.eeeee
