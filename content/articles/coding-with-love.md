@@ -3,7 +3,7 @@ public: false
 slug: coding-with-love
 title: Coding With Love
 tags: ux, opinion
-image: articles/code.jpg
+image: code.jpg
 description: The usability of an app is in details. Designing the details can't be enforced by Agile-like systems and most often it is impeded by them
 ---
 
