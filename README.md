@@ -1,5 +1,7 @@
 # gulyamani.com
 
+![CI](https://github.com/maratumba/maratumba.github.io/workflows/CI/badge.svg)
+
 ## Build Setup
 
 ```bash
