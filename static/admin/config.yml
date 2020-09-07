@@ -29,7 +29,7 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'Public', name: 'public', widget: 'string' }
+      - { label: 'Public', name: 'public', widget: 'boolean' }
       - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'string' }

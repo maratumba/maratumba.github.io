@@ -1,4 +1,6 @@
 module.exports = {
+  preset: 'ts-jest/presets/js-with-ts',
+  transformIgnorePatterns: ['node_modules/(?!(bootstrap-vue)/)'],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/$1',
     '^~/(.*)$': '<rootDir>/$1',
