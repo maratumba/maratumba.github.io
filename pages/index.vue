@@ -8,7 +8,7 @@
                 <h2 class="title">
                   Yaman
                 </h2>
-                <h1 class="subtitle profession">Fullstack Developer & Scientist</h1>
+                <h1 class="subtitle profession">Fullstack Engineer & Scientist</h1>
               </div>
         </div>
       </section>
@@ -81,7 +81,7 @@
           <section class="section-light" >
             <h1 class="section-title" data-aos="fade-right">About Me</h1>
             <p class="is-larger is-size-4" data-aos="fade-left">
-              I am a full-stack developer with a science background. I design
+              I am a full-stack engineer with a science background. I design
               web services, apps and do consulting work.
             </p>
             <div class="columns mt-4 is-multiline">
