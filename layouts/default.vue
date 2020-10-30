@@ -63,7 +63,7 @@ export default Vue.extend({
       },
       {
         value: 'tools',
-        text: 'Tools  ',
+        text: 'Tools (soon)',
         icon: 'fas fa-tools',
         href: '/tools',
       },
