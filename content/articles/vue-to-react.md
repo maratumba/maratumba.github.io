@@ -1,5 +1,5 @@
 ---
-public: true
+public: false
 slug: vue-to-react
 title: My Journey From Vue To React
 tags: frontend, dev
