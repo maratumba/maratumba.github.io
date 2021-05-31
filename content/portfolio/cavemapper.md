@@ -1,7 +1,9 @@
 ---
+order: 9
 href: https://cave-mapper.netlify.app/mapper/
 icon: map.svg
 title: Cave Mapper
+primary: false
 tags:
   - GIS
   - 3D

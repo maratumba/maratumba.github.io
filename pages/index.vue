@@ -110,6 +110,21 @@
             </a>
           </section>
           <section class="section-light" data-aos="fade">
+            <nuxt-link :to="{name: 'portfolio'}">
+              <h1 class="section-title" data-aos="fade">Portfolio</h1>
+            </nuxt-link>
+            <div class="columns is-multiline">
+              <div class="column is-4" v-for="(item,i) in items" :key="item.value">
+                <portfolio-short-card :item="item" />
+              </div>
+            </div>
+            <nuxt-link :to="{name: 'portfolio'}"  class="button is-medium is-primary is-outlined is-fullwidth">
+              <span>
+                More
+              </span>
+            </nuxt-link>
+          </section>
+          <section class="section-light" data-aos="fade">
             <h1 class="section-title" data-aos="fade">Skills</h1>
             <div v-for="section in skillSections" :key="section.value" class="mb-6">
               <h2 class="section-title is-size-5 pb-0" data-aos="fade">{{ section.text }}</h2>
@@ -196,12 +211,19 @@ export default Vue.extend({
   async asyncData(ctx) {
     // fetch our article here
     const skills = await ctx.app.$content(`skills`).fetch();
-    return { skills: skills.skills };
+    const items = await ctx.app.$content("portfolio")
+      .where({primary: { $ne: false}})
+      .sortBy('order','asc')
+      .fetch();
+    return { skills: skills.skills, items };
   },
 });
 </script>
 
 <style lang="scss" scoped>
+.radius-10 {
+  border-radius: 10px;
+}
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
 .has-vertically-aligned-content {
   display: flex;

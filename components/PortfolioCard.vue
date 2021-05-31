@@ -64,9 +64,6 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-.border {
-  border: 2px #80808030 solid;
-}
 .primary-color.dark {
   background-color: $primary;
 }

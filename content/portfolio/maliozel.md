@@ -1,4 +1,5 @@
 ---
+order: 3
 href: https://maliozel.tumaf.org/
 icon: camera.svg
 title: Mehmet Ali Özel Photo Contest

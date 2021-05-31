@@ -77,6 +77,9 @@ body {
   min-height: 100vh;
   background-image: url('~assets/media/background/dot.png');
 }
+.border {
+  border: 2px #80808030 solid;
+}
 .hero.footer{
   background-color: #333;
   color: #DDD;
