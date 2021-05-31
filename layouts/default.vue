@@ -61,12 +61,12 @@ export default Vue.extend({
         icon: 'fas fa-th-list',
         href: '/articles',
       },
-      {
-        value: 'tools',
-        text: 'Tools (soon)',
-        icon: 'fas fa-tools',
-        href: '/tools',
-      },
+      // {
+      //   value: 'tools',
+      //   text: 'Tools (soon)',
+      //   icon: 'fas fa-tools',
+      //   href: '/tools',
+      // },
     ],
   })
 })
