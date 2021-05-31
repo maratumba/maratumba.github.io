@@ -1,6 +1,6 @@
 ---
 href: http://gulyamani.com
-icon: depremdelisi.png
+icon: favicon.png
 title: This Page!
 tags:
   - static
@@ -15,6 +15,6 @@ technologies:
 ---
 What you're looking at right now!
 <br></br>
-- Written from scratch.
-- Static
-- With forms.
+- JAM Stack
+- TypeScript & Nuxt
+- bulma CSS
