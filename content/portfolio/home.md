@@ -15,6 +15,6 @@ technologies:
 ---
 What you're looking at right now!
 <br></br>
-- JAM Stack
-- TypeScript & Nuxt
-- bulma CSS
+- JAM Stack.
+- TypeScript & Nuxt.
+- bulma CSS.
