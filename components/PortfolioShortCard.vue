@@ -82,8 +82,7 @@ export default Vue.extend({
     0 0px 0 1px rgba($scheme-invert, 0.02);
 }
 .card {
-  min-height: 4rem;
-  max-height: 20rem;
+  height: 100%;
   transition: box-shadow 0.5s;
   border-radius: 10px;
 }
