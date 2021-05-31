@@ -1,7 +1,7 @@
 <template>
   <div class="mt-4">
     <a :href  ="item.href">
-      <div class="card" :class="{'primary-color': !color}" :style="{'background-color': color}">
+      <div class="card border" :class="{'primary-color': !color}" :style="{'background-color': color}">
         <div class="card-content ">
           <!-- <div class="level mb-2"> -->
             <div class="media">
@@ -64,11 +64,16 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-.primary-color {
+.border {
+  border: 2px #80808030 solid;
+}
+.primary-color.dark {
   background-color: $primary;
 }
 ::v-deep .nuxt-content {
-  color: $white-ter;
+  .dark {
+    color: $white-ter;
+  }
   ul {
     list-style: square;
     list-style-position: inside
@@ -78,7 +83,7 @@ export default Vue.extend({
   text-overflow: ellipsis;
   overflow: hidden; 
 }
-.title, .subtitle {
+.title.dark, .subtitle.dark {
   color: $white-ter;
 }
 .card-content {

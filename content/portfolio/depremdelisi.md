@@ -1,7 +1,7 @@
 ---
-href: http://quakecatcher.com
+href: http://quakechaser.com
 icon: depremdelisi.png
-title: Quake Catcher
+title: Quake Chaser
 tags:
   - science
   - seismology
