@@ -18,3 +18,4 @@ What you're looking at right now!
 - JAM Stack.
 - TypeScript & Nuxt.
 - bulma CSS.
+- Netlify CMS.

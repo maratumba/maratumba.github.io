@@ -114,6 +114,16 @@ const ICONS = {
     type: "image/png",
     href: "https://angular.io/"
   },
+  graphql: {
+    url: require('~/assets/media/tech-icons/graphql.svg'),
+    type: "image/png",
+    href: "https://graphql.org/"
+  },
+  faunadb: {
+    url: require('~/assets/media/tech-icons/faunadb.png'),
+    type: "image/png",
+    href: "https://fauna.com/"
+  },
 }
 
 export default Vue.extend({
