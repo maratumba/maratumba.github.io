@@ -1,9 +1,9 @@
 <template>
-  <div class="">
+  <div class="h-full">
     <a :href  ="item.href">
-      <div class="card border" :class="{'primary-color': !color}" :style="{'background-color': color}"> 
+      <div class="card border fixed-height" :class="{'primary-color': !color}" :style="{'background-color': color}"> 
         <div class="card-image p-4">
-          <figure class="image is-1x1">
+          <figure class="image">
             <img :src="icon" class="" alt="Placeholder image" />
           </figure>
         </div>
@@ -51,6 +51,9 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
+.h-full {
+  height: 100%;
+}
 .p-4 {
   padding: 2rem;
 }

@@ -1,7 +1,7 @@
 ---
 order: 1.5
 href: https://ordinary-comics.netlify.app/
-icon: ordinarycomics.png
+icon: ordinarycomics.jpg
 title: Ordinary Comics
 tags:
   - art

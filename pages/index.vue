@@ -113,12 +113,12 @@
             <nuxt-link :to="{name: 'portfolio'}">
               <h1 class="section-title" data-aos="fade">Portfolio</h1>
             </nuxt-link>
-            <div class="columns is-multiline">
-              <div class="column is-4" v-for="(item,i) in items" :key="item.value">
-                <portfolio-short-card :item="item" />
+            <div class="columns is-multiline is-mobile">
+              <div class="column is-4-desktop is-half-mobile" v-for="(item,i) in items" :key="item.value">
+                <portfolio-short-card :item="item" data-aos="fade" :data-aos-delay="50+i*50"/>
               </div>
             </div>
-            <nuxt-link :to="{name: 'portfolio'}"  class="button is-medium is-primary is-outlined is-fullwidth">
+            <nuxt-link :to="{name: 'portfolio'}"  class="button is-medium is-primary is-outlined is-fullwidth" data-aos="fade">
               <span>
                 More
               </span>
