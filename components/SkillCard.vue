@@ -1,7 +1,7 @@
 <template>
   <div class="mt-4">
     <a href="#">
-      <div class="card">
+      <div class="card px-2 py-2">
         <div class="card-image px-2 py-2">
           <figure class="image is-square">
             <tech-icon :tech="skill" />

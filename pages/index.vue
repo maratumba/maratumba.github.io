@@ -8,82 +8,26 @@
                 <h2 class="title">
                   Yaman
                 </h2>
-                <h1 class="subtitle profession">Fullstack Engineer & Scientist</h1>
+                <h1 class="subtitle profession">Scientist & Fullstack Engineer</h1>
               </div>
         </div>
       </section>
     </div>
-    <!-- Begin Main Content -->
     <div class="main-content">
-      <!-- Begin About Me Section -->
-      <!-- <div class="section-light about-me" id="about-me" >
-        <div class="columns">
-          <div class="column is-12 about-me">
-            <h1 class="title section-title">About Me</h1>
-          </div>
-          <div class="columns has-text-left is-multiline">
-            <div class="column is-6 right-image " data-aos="fade-left">
-              <img
-                class="is-rounded"
-                src="https://picsum.photos/id/366/600/375"
-                alt=""
-              />
-            </div>
-            <div
-              class="column is-12 has-vertically-aligned-content"
-              data-aos="fade-left"
-            >
-              <p class="is-larger">
-                <strong
-                  >I am a scientist and a developer.</strong
-                >
-              </p>
-              <br />
-              <p>
-                I have degrees in Physics and Seismology, worked on 
-                big data, machine learning, signal processing; developed
-                web services and apps.
-              </p>
-              <br />
-              <div class="is-divider"></div>
-              <div class="columns about-links">
-                <div class="column">
-                  <p class="heading">
-                    <strong>Give me a ring</strong>
-                  </p>
-                  <p class="subheading">
-                    123-456-7890
-                  </p>
-                </div>
-                <div class="column">
-                  <p class="heading">
-                    <strong>Email Me</strong>
-                  </p>
-                  <p class="subheading">
-                    hello@example.com
-                  </p>
-                </div>
-                <div class="column">
-                  <p class="heading">
-                    <strong>View my portfolio</strong>
-                  </p>
-                  <p class="subheading">
-                    example.com
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>-->
       <div class="columns">
         <div class="column has-background-white-0-7 is-6 is-offset-3">
           <section class="section-light" >
-            <h1 class="section-title" data-aos="fade-right">About Me</h1>
-            <p class="is-larger is-size-4" data-aos="fade-left">
-              I am a full-stack engineer with a science background. I design
-              web services, apps and do consulting work.
-            </p>
+            <div class="is-flex is-justify-content-flex-start">
+              <div class="mr-2 bw-filter" data-aos="fade-right" style="width: 20rem;border-radius: 0.4rem;" :style="{'background': `url(${require('~/assets/media/avatar/profile_by_zeki_melek.jpg')}) no-repeat center / cover`}">
+              </div>
+              <div>
+                <h1 class="section-title pb-2" data-aos="fade-right">About Me</h1>
+                <p class="is-larger is-size-4" data-aos="fade-left">
+                  I am Yaman Özakin. I have a PhD in computational seismology and I currently work as a full-stack engineer. I design
+                  web services, apps and do consulting work.
+                </p>
+              </div>
+            </div>
             <div class="columns mt-4 is-multiline">
               <div class="column" v-for="account in accounts" :key="account.value">
               <a :href="account.href" target="_blank" rel="noreferrer nofollow" class="is-primary button is-medium is-outlined is-fullwidth">
@@ -201,6 +145,12 @@ export default Vue.extend({
         text: 'Scholar',
         href: 'https://scholar.google.com/citations?user=9SgLlsMAAAAJ&hl=en',
         icon: 'fas fa-graduation-cap',
+      },
+      {
+        value: 'instagram',
+        text: 'Instagram',
+        href: 'https://www.instagram.com/dandique/',
+        icon: 'fab fa-instagram',
       },
     ]
   }),
@@ -577,5 +527,9 @@ body.preloader-site {
 
 .white {
   color: ghostwhite;
+}
+
+.bw-filter {
+  filter: grayscale(70%);
 }
 </style>

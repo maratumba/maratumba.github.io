@@ -124,6 +124,11 @@ const ICONS = {
     type: "image/png",
     href: "https://fauna.com/"
   },
+  tailwind: {
+    url: require('~/assets/media/tech-icons/tailwindcss.png'),
+    type: "image/png",
+    href: "https://tailwindcss.com/"
+  },
 }
 
 export default Vue.extend({

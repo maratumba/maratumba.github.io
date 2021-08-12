@@ -40,6 +40,9 @@ skills:
     - 
       value: bulma
       text: Bulma
+    - 
+      value: tailwind
+      text: Tailwind
   tools:
     -
       value: git

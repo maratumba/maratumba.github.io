@@ -61,6 +61,18 @@ export default Vue.extend({
         icon: 'fas fa-th-list',
         href: '/articles',
       },
+      {
+        value: 'publications',
+        text: 'Publications',
+        icon: 'fas fa-graduation-cap',
+        href: '/publications',
+      },
+      {
+        value: 'photos',
+        text: 'Photos',
+        icon: 'fas fa-camera',
+        href: '/photos',
+      },
       // {
       //   value: 'tools',
       //   text: 'Tools (soon)',

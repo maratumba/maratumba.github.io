@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header-wrapper" id="home">
-      <section class="hero is-large" :style="{'background-image': `url('${heroImage}')`}">
+      <section class="hero is-large" style="background-size: cover" :style="{'background-image': `url('${heroImage}')`}">
         <div class="columns hero-body pb-2 px-0">
           <div class="column is-three-fifths is-offset-one-fifth">
             <h1 class="subtitle is-2">
@@ -120,5 +120,10 @@ export default Vue.extend({
 }
 .section {
   padding-top: 1em;
+}
+::v-deep ul {
+  list-style-type: square;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
 }
 </style>
