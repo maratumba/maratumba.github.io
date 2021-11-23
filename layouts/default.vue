@@ -1,6 +1,6 @@
 <template>
 
-  <div class="">
+  <div class="is-fullwidth">
   <!-- Navigation bar -->
     <nav class="navbar is-fixed-top">
       <div class="navbar-brand">
@@ -25,7 +25,7 @@
         </div>
       </div>
     </nav>
-    <div class="main-content is-fullheight">
+    <div class="main-content is-fullheight is-fullwidth">
       <Nuxt/>
     </div>
   </div>

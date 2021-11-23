@@ -109,6 +109,11 @@ const ICONS = {
     type: "image/png",
     href: "https://www.github.com/"
   },
+  githubActions: {
+    url: require('~/assets/media/tech-icons/githubActions.svg'),
+    type: "image/png",
+    href: "https://github.com/features/actions"
+  },
   angular: {
     url: require('~/assets/media/tech-icons/angular.svg'),
     type: "image/png",

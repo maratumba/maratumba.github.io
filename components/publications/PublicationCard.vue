@@ -1,10 +1,10 @@
 <template>
-  <component :is="publication.Src ? 'a' : 'div'" :src="publication.Src" noreferrer nofollow target="_blank">
+  <component :is="publication.Src ? 'a' : 'div'" :href="publication.Src" rel="noreferrer nofollow" target="_blank">
       <div class="card mt-4">
         <div class="card-content">
           <div class="content">
             <div class="media">
-              <div class="media-left" >
+              <div class="media-left is-desktop" >
                 <figure class="image ml-0 mr-2" >
                   <img :src="thumbSrc" style="width: 6rem; height: 8rem;" v-if="publication.Thumb"/>
                   <div v-else style="width: 6rem; height: 8rem;">

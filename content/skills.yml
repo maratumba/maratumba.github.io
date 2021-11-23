@@ -51,6 +51,9 @@ skills:
       value: github
       text: Github
     -
+      value: githubActions
+      text: Github Actions
+    -
       value: docker
       text: Docker
     -
